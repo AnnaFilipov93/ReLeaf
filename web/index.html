@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReLeaf</title>
+    <!--css link-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!--Bootstrap css link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--google link-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+
+    <!--java script link-->
+    <script src="index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<br>
+
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <main role="main" class="inner cover">
+        <h1 class="cover-heading">Welcome to ReLeaf</h1>
+        <p class="lead">RELEAF is an application that allows you to identify plants and their disease simply by photographing them with your smartphone.</p>
+
+        <center>
+        <!--Camera-->
+            <form action="api" method="post" enctype="multipart/form-data">
+        <input type="button" id="loadFileXml" value="Take a picture" onclick="document.getElementById('file-camera').click();" />
+        <input type="file" accept="image/*" id="file-camera" name="camera" style="display: none" capture >
+        <br> <br>
+        <p class="lead">or</p>
+
+        <!--Gallery file-->
+            <input type="button" id="loadFileXml2" value="Choose File" onclick="document.getElementById('file-input').click();" />
+            <input type="file" accept="image/*" style="display: none" name="gallery"  id="file-input">
+            <br>
+            <img id="output" src="">
+
+        <!--Analyze button-->
+            <br><br>
+        <p class="lead">
+            <input type="submit" class="btn btn-lg btn-success" value="Analyze">
+        </p>
+            </form>
+        <!--predict form-->
+        <div id="myformcontainer"> </div>
+
+        </center>
+    </main>
+</div>
+
+<script>
+    const output = document.getElementById('output');
+    var imageHolder=null;//
+
+    //take the chosen image and shows the user
+    function doSomethingWithFiles(fileList) {
+        let file = null;
+
+        for (let i = 0; i < fileList.length; i++) {
+            if (fileList[i].type.match(/^image\//)) {
+                file = fileList[i];
+                break;
+            }
+        }
+
+        if (file !== null) {
+            output.src = URL.createObjectURL(file);
+            imageHolder = file;
+        }
+    }
+
+
+    const fileInput = document.getElementById('file-input');
+    const camera = document.getElementById('file-camera');
+
+    fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+    camera.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+
+</script>
+
+</body>
+</html>

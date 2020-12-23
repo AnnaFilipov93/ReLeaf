@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10a5bc00-4241-4733-95eb-caae72e3abd5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fPHsgnXcUTfuv1EptJNiw8aTrg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10a5bc00-4241-4733-95eb-caae72e3abd5" name="Default Changelist" comment="" />
+      <created>1596113017547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596113017547</updated>
+      <workItem from="1596113018828" duration="4650000" />
+      <workItem from="1596543582785" duration="3320000" />
+      <workItem from="1596698169306" duration="1895000" />
+      <workItem from="1596719643254" duration="774000" />
+      <workItem from="1597128007237" duration="3111000" />
+      <workItem from="1597220989223" duration="5145000" />
+      <workItem from="1597488502496" duration="1223000" />
+      <workItem from="1597571259100" duration="12000" />
+      <workItem from="1598164176622" duration="11191000" />
+      <workItem from="1598176504553" duration="18000" />
+      <workItem from="1606077371156" duration="288000" />
+      <workItem from="1606327866286" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596545444388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1596545444388" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1596545309171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1596545309171" />
+  </component>
+</project>
