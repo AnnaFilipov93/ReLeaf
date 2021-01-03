@@ -8,7 +8,7 @@ In the process, a deep CNN network model is trained, resNet50,  to recognize 7 f
 
 YOLO v3 is used to detect the objects to separate between flowers and the leaves before sending each of the images to the corresponding model.
 
-A digital poster in Hebrew: https://annaf93.wixsite.com/releaf
+A digital poster in Hebrew:[Here]( https://annaf93.wixsite.com/releaf)
 
 To run the code just run the file app.py.
 
