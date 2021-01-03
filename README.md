@@ -1,6 +1,6 @@
 Note - reuploaded organized version for the project
 
-## ReLeaf - web application
+## _ReLeaf - web application_
 
 The app identifies flowers and leaves diseases.
 
