@@ -2,7 +2,7 @@ Note - reuploaded organized version for the project
 
 ## _ReLeaf - web application_
 
-The app identifies flowers :sunflower: and leaves :leaves: diseases.
+The app identifies flowers :sunflower: and :leaves: leaves diseases.
 
 In the process, a deep CNN network model is trained, resNet50,  to recognize 7 flowers (daisy, sunflower, dandelion, rose, tulip, iris, and water lily) and 4 leaf diseases (healthy, dryness, magnesium lack, and bug holes) from datasets that I’ve collected.
 
